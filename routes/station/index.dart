@@ -11,7 +11,7 @@ Future<Response> onRequest(RequestContext context) async {
   const params = {'key': '<key>'};
   const userAgents = {
     'User-Agent':
-        'statio_center/0.0.1'
+        'user_agent'
   };
   //var url = Uri.https('reqres.in', '/api/products/3');
   // var getUrl = Uri.http(url, path, params);

@@ -6,7 +6,7 @@ const String OPEN_CHARGE_MAP_API_URL = 'api.openchargemap.io';
 
 const String OPEN_CHARGE_MAP_API_POI = 'v3/poi';
 
-const String OPEN_CHARGE_USER_AGENT = 'statio_center/0.0.1';
+const String OPEN_CHARGE_USER_AGENT = 'user_agent';
 
 const OPEN_CHARGE_HEADER = {
   'X-API-Key': OPEN_CHARGE_MAP_API_KEY,
