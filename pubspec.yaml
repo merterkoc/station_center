@@ -1,0 +1,24 @@
+name: station_center
+description: An new Dart Frog application
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  dart_frog: ^0.3.0
+  equatable: ^2.0.5
+  freezed_annotation: ^2.2.0
+  http: ^0.13.5
+  json_annotation: ^4.8.0
+  mongo_dart: ^0.8.2
+  mongo_pool: ^1.0.1
+
+dev_dependencies:
+  build_runner: ^2.3.3
+  freezed: ^2.3.2
+  json_serializable: ^6.6.1
+  mocktail: ^0.3.0
+  test: ^1.19.2
+  very_good_analysis: ^3.1.0
